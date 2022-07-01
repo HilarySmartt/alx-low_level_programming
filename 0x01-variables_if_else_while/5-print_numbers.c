@@ -10,8 +10,8 @@ int main(void)
 
 	for (g = 0; g < 10; g++)
 	{
-		printf(g);
+		printf("%d", g);
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
