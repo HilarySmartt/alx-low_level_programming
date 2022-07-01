@@ -17,7 +17,7 @@ int main(void)
 				putchar(ep);
 				putchar(me);
 
-				if ((ep == '8') && !(me == '9'))
+				if ((ep != '8') || (ep == '8') && !(me == '9'))
 				{
 					putchar(',');
 					putchar(' ');
