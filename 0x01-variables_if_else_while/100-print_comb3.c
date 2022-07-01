@@ -8,7 +8,7 @@ int main(void)
 {
 	int ep, me;
 
-	for (ep = '0'; ep <= '8'; ep++)
+	for (ep = '0'; ep <= '9'; ep++)
 	{
 		for (me = '0'; me <= '9'; me++)
 		{
