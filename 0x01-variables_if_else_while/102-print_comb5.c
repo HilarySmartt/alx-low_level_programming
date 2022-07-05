@@ -21,6 +21,8 @@ int main(void)
 						putchar(a);
 						putchar(b);
 						putchar(' ');
+						putchar(c);
+						putchar(d);
 						if ((a + b + c + d == 35) && (a == 9))
 						{
 							break;
