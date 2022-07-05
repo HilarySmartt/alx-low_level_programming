@@ -15,8 +15,3 @@ void parent_alphabet(void)
 	}
 	_putchar('\n');
 }
-int main(void)
-{
-	parent_alphabet();
-	return (0);
-}
