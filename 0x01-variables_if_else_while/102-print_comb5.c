@@ -1,0 +1,40 @@
+#include <stdio.h>
+/**
+ * main - Print all possible combinations of two 2-digit numbers
+ * Return: Always 0
+ * by HilarySmartt
+ */
+int main(void)
+{
+	int a, b, c, d;
+
+	for (a = '0'; a <= '9'; a++)
+	{
+		for (b = '0'; b <= '9'; b++)
+		{
+			for (c = '0'; c <= '9'; c++)
+			{
+				for (d = '0'; d <= '9'; d++)
+				{
+					if (((c + d) > (a + b) && (c >= a)) || (a < c))
+					{
+						putchar(a);
+						putchar(b);
+						putchar(' ');
+					if ((a + b + c + d == 35) && (a == 9))
+					{
+						break;
+					}
+					else
+					{
+						putchar(',');
+						putchar(' ');
+					}
+					}
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
+}
