@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Print the lowest combination of 3 numbers
- * Return: Always 0
+ * main - Print the lowest combination of (3) numbers
+ * Return: Always (0)
  * by HilarySmartt
  */
 int main(void)
