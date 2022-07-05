@@ -6,14 +6,13 @@
  * Return: Always 0
  * by HilarySmartt
  */
-void print_alphabet(void)
+void parent_alphabet()
 {
 	char x;
 
-	for (x = '0'; x <= 'z'; x++)
+	for (x = 'a'; x <= 'z'; x++)
 	{
 		_putchar(x);
 	}
-	_putchar("\n");
-	return (0);
+	_putchar('\n');
 }
