@@ -21,15 +21,15 @@ int main(void)
 						putchar(a);
 						putchar(b);
 						putchar(' ');
-					if ((a + b + c + d == 35) && (a == 9))
-					{
-						break;
-					}
-					else
-					{
-						putchar(',');
-						putchar(' ');
-					}
+						if ((a + b + c + d == 35) && (a == 9))
+						{
+							break;
+						}
+						else
+						{
+							putchar(',');
+							putchar(' ');
+						}
 					}
 				}
 			}
