@@ -1,1 +1,1 @@
-Nested loops and Functions in c - readme file
+Functions and Nested loops readme file
