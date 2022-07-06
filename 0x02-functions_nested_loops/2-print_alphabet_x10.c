@@ -1,7 +1,7 @@
 /*
  * File: alphabet ten times
  * Auth: HilarySmartt
- * /
+ */
 
 #include "main.h"
 
