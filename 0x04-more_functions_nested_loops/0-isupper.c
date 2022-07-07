@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * _isuper - returns 1 if input is uppercase and 0 if lowercase
