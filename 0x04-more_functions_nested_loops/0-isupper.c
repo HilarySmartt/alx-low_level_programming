@@ -9,16 +9,8 @@
 
 int _isuper(int c)
 {
-	int boolean;
-
 	if ((c >= 65) && (c <= 90))
-	{
-		boolean = 1;
-	}
+		return (1);
 	else
-	{
-		boolean = 0;
-	}
-
-	return (boolean);
+		return (0);
 }
