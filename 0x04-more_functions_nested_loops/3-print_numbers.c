@@ -3,7 +3,6 @@
 /**
  * print_numbers - print 0123456789
  * Return: void
- * Auth: HS
  */
 
 void print_numbers(void)

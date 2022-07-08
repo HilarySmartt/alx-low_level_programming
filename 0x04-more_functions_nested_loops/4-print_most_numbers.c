@@ -3,7 +3,6 @@
 /**
  * print_most_numbers - prints
  * Return: void
- * by HS
  */
 
 void print_most_numbers(void)

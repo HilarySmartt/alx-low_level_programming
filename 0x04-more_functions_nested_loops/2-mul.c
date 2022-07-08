@@ -7,7 +7,6 @@
  * @a: first integer
  * @b: second integer
  * Return: addition of a and b
- * Auth: HS
  */
 
 int mul(int a, int b)
