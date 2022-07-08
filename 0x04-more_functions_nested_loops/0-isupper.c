@@ -11,7 +11,7 @@ int _isuper(int c)
 {
 	int boolean;
 
-	if ((c >= 65) || (c <= 90))
+	if ((c >= 65) && (c <= 90))
 	{
 		boolean = 1;
 	}
