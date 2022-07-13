@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * reset_to_98 - resets the parameter integer to 98
- * @n: the integer pointer parameter to be reset
+ * reset_to_98 - reset integer parameter to 98
+ * @n: the interger pointer parameter to be reset
  * Return: nothing.
  */
 
