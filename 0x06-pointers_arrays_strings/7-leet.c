@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * leet - encodes a string to 1337.
+ * *leet - encodes a string to 1337.
  * @str: string to be encoded.
  * Return: Always 0.
  */
@@ -20,5 +20,6 @@ char *leet(char *str)
 				s[i] = b[j];
 		}
 	}
+
 	return (s);
 }
