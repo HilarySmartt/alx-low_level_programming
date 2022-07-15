@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strncat -  a function that concatenates a destination string to
+ * _strncat -  a function that concatenates a destination string to
  * a source string with n chars.
  * @dest: destination string
  * @src: source string
@@ -14,11 +14,11 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int len1 = 0, index = 0;
 
-	while (src[index++])
+	while (dest[index++])
 		len1++;
 
 	for (index = 0; src[index] && index < n; index++)
-		dest[len++] = src[index];
+		dest[len1++] = src[index];
 
 	return (dest);
 }
