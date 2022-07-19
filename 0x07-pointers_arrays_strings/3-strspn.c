@@ -12,8 +12,7 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	int x, y;
-	int z = 0;
+	int z = 0, x, y;
 
 	for (x = 0; s[x] != '\0'; x++)
 	{
@@ -26,10 +25,9 @@ unsigned int _strspn(char *s, char *accept)
 					z++;
 				}
 			}
-		}
 		else
 			return (z);
-
+		}
 		return (z);
 	}
 
