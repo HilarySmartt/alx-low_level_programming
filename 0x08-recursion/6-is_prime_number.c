@@ -30,4 +30,4 @@ int is_prime_number(int n)
 		return (0);
 	else
 		return (find_multipliers(n, 2));
-}	
+}
