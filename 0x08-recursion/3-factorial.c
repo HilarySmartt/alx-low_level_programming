@@ -7,7 +7,6 @@
  * -1 to indicate an error. Factorial of 0 is 1
  *  Return: value of factorial
  */
-
 int factorial(int n);
 {
 	int f = n;
